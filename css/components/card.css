@@ -1,0 +1,47 @@
+.card-image {
+  width: 292px;
+  height: 292px;
+  object-fit: cover;
+
+}
+.card-cover {
+  display: none;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+.card {
+  margin: 0 auto;
+  width: 292px;
+  height: 292px;
+  position: relative;
+}
+.card:hover .card-cover{
+  display: flex;
+}
+.info {
+  padding: 10px 15px;
+}
+.info>li {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.info {
+  margin-top: 30vh;
+  color: white;
+  list-style-type: none;
+}
+.info-image {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+}
+ul {
+  padding: 0;
+}
