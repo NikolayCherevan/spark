@@ -9,6 +9,7 @@
 }
 .logo>img {
   height: 100px;
+  width: 100px;
 }
 .start-on {
   color: #4090db;
@@ -29,4 +30,20 @@ border-radius: 4px;
 .bolder-numbers {
   font-weight: bold;
   font-size: 12px;
+}
+@media only screen and (min-width: 321px) {
+  .count {
+    flex-direction: column;
+
+  }
+  .col-max>* {
+    margin-left: 40px;
+  }
+  .col-min>* {
+    margin-left:50px;
+  }
+  .logo>img {
+    height: 100px;
+    width: 100px;
+  }
 }

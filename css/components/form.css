@@ -1,0 +1,16 @@
+.main-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 20px;
+  width: 124px;
+  height: 28px;
+  border: 1px solid #000000;
+  background-color: #fafafa;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.main-button:hover {
+  background-color: black;
+  color: #fafafa;
+}

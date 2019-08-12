@@ -16,13 +16,18 @@
   z-index: 1;
 }
 .card {
-  margin: 0 auto;
+  left: 52%;
+  transform: translate(-50%);
   width: 292px;
   height: 292px;
   position: relative;
 }
 .card:hover .card-cover{
   display: flex;
+}
+.card:hover .card-overlay{
+  display: flex;
+  flex-wrap: wrap;
 }
 .info {
   padding: 10px 15px;
@@ -33,7 +38,8 @@
   padding: 10px 0px;
 }
 .info {
-  margin-top: 30vh;
+  margin-top: 15vh;
+  font-size: 17px;
   color: white;
   list-style-type: none;
 }
@@ -44,4 +50,18 @@
 }
 ul {
   padding: 0;
+}
+.card-overlay {
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 5;
+}
+.info-descriptions {
+  color: white;
+  margin-left: 40px;
+  font-size: 17px;
 }
