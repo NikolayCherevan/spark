@@ -1,0 +1,77 @@
+.ui-datepicker .ui-datepicker-title {
+color: #333333;
+font-family: 'Nunito', sans-serif;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.35px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../images/double.png);
+}
+.ui-datepicker .ui-datepicker-prev {
+  background-repeat: no-repeat;
+  background-image: url(../../images/double-reverse.png);
+  background-position: center;
+}
+.ui-datepicker .ui-datepicker-header {
+border: none;
+background: none;
+}
+.ui-datepicker th {
+    font-family: 'Nunito', sans-serif;
+  color: #333333;
+font-size: 16px;
+font-weight: 800;
+letter-spacing: 0.35px;
+}
+.ui-widget.ui-widget-content {
+  margin-top: 2px;
+width: 225px;
+height: 238px;
+box-shadow: 0 5px 8px 1px rgba(1, 1, 1, 0.21), inset 0 0 0 2px rgba(255, 255, 255, 0.79);
+border: 1px solid #b8b8b8;
+border-radius: 4px;
+background-color: #ffffff;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button,  html .ui-button.ui-state-disabled:active {
+    border: none;
+    background:#ffffff;
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+}
+.ui-state-default:hover {
+  color: white;
+  background-color: #4090db;
+  border-radius: 4px;
+}
+.datepicker {
+  border: 1px solid #cccccc;
+  font-family: 'Nunito', sans-serif;
+}
+.close {
+  padding: 0;
+  margin-right: 39px;
+  border: 1px solid #cccccc;
+  background-color: #ebebeb;
+}
+.calend {
+  border: 1px solid #cccccc;
+  background-color: #ebebeb;
+  border-radius: 0 4px 4px 0;
+}
+.uk-input, .uk-select:not([multiple]):not([size]) {
+  height: auto;
+}
+.uk-input:focus {
+  border: solid 1px #ebebeb;
+  border-radius: 6px;
+}
+.uk-inline {
+  margin: 5px 0;
+  width: 150px;
+}
