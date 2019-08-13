@@ -27,12 +27,19 @@ border-radius: 4px;
   display: flex;
   list-style-type: none;
   font-size: 12px;
-
 }
 .bolder-numbers {
   font-weight: bold;
   font-size: 12px;
 }
+.form-inf {
+font-size: 17px;
+font-weight: 400;
+margin: 0;
+display: block;
+margin-right: 10px;
+}
+
 @media only screen and (min-width: 400px) {
 
 
@@ -42,5 +49,7 @@ border-radius: 4px;
 display: flex;
 flex-direction: column;
   }
-
+  .count>li {
+    margin: 5px 0;
+  }
 }

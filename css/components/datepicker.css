@@ -60,9 +60,9 @@ background-color: #ffffff;
   background-color: #ebebeb;
 }
 .calend {
-  border: 1px solid #cccccc;
+  border: solid 1px gray;
   background-color: #ebebeb;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 6px 6px 0;
 }
 .uk-input, .uk-select:not([multiple]):not([size]) {
   height: auto;
@@ -74,4 +74,8 @@ background-color: #ffffff;
 .uk-inline {
   margin: 5px 0;
   width: 150px;
+}
+.uk-input, .uk-select, .uk-textarea {
+    border: 1px solid #cccccc;
+      border-radius: 6px;
 }
