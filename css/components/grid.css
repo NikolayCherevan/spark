@@ -32,13 +32,25 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
+  .col-max {
+  align-self: center;
 
+  }
 }
 
 
-@media (min-width: 400px) {
-
+@media (min-width: 300px) {
+  .col-max {
+    display: flex;
+    flex-direction: column;
+    margin-right: -50px;
+  }
+  .col-min {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 320px) {
