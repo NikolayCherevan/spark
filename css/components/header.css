@@ -4,12 +4,12 @@
   font-size: 20px;
   font-weight: 400;
   text-align: left;
-  margin: 0;
   padding-bottom: 10px;
+  margin: 0;
 }
 .logo>img {
-  height: 100px;
-  width: 100px;
+ width: auto;
+ height: auto;
 }
 .start-on {
   color: #4090db;
@@ -20,30 +20,27 @@ border: 1px solid #4090db;
 padding: 2px;
 width: 135px;
 border-radius: 4px;
+
 }
 .count {
   padding: 0;
   display: flex;
   list-style-type: none;
   font-size: 12px;
+
 }
 .bolder-numbers {
   font-weight: bold;
   font-size: 12px;
 }
-@media only screen and (min-width: 321px) {
-  .count {
-    flex-direction: column;
+@media only screen and (min-width: 400px) {
 
+
+}
+@media only screen and (min-width: 350px) {
+  .count {
+display: flex;
+flex-direction: column;
   }
-  .col-max>* {
-    margin-left: 40px;
-  }
-  .col-min>* {
-    margin-left:50px;
-  }
-  .logo>img {
-    height: 100px;
-    width: 100px;
-  }
+
 }
