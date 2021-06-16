@@ -1,7 +1,6 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -10px;
   justify-content: space-between;
 }
 .grid > .grid-item {
@@ -17,21 +16,6 @@
   width: 100%;
 }
 
-
-@media (min-width: 1200px) {
-
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
 @media (max-width: 700px) {
   .col-max {
   align-self: center;
@@ -44,12 +28,10 @@
   .col-max {
     display: flex;
     flex-direction: column;
-    margin-right: -50px;
   }
   .col-min {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
   }
 }
 

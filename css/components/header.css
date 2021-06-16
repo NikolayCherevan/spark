@@ -46,12 +46,10 @@ margin-right: 10px;
   .col-max {
     display: flex;
     flex-direction: column;
-    margin-right: -90px;
   }
   .col-min {
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
   }
 
 }
@@ -69,12 +67,10 @@ margin: 0;
   .col-max {
     display: flex;
     flex-direction: column;
-    margin-right: -100px;
   }
   .col-min {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
   }
   .grid-adap {
     display: flex;
@@ -95,7 +91,6 @@ margin: 0;
 }
   .grid {
     position: relative;
-    left: 10%;
     margin: 0;
   }
 
@@ -111,15 +106,5 @@ margin: 0;
   }
   .uk-inline {
       margin: 0 10px;
-}
-}
-@media only screen and (max-width: 400px) {
-  .container {
-    left: 15%;
-}
-}
-@media only screen and (max-width: 420px) {
-  .container {
-    left: 10%;
 }
 }
